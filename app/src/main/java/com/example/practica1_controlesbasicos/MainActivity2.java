@@ -13,6 +13,8 @@ public class MainActivity2 extends AppCompatActivity {
     TextView txtFechaNac;
     TextView txtTelefono;
 
+    Bundle b = new Bundle();
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -23,6 +25,15 @@ public class MainActivity2 extends AppCompatActivity {
         txtgenero = (TextView) findViewById(R.id.txtGenero);
         txtFechaNac = (TextView) findViewById(R.id.txtFECHANAC);
         txtTelefono = (TextView) findViewById(R.id.txtTELEFONO);
+
+        txtSaludo.setText("Hola " + b.getString("nombres"));
+
+        b = this.getIntent().getExtras();
+        txtSaludo.setText("Hola " + b.getString("nombres") + "Bienvenid@. A Continuacion tus datos...");
+        txtNombre.setText(b.getString("nombres"));
+        txtgenero.setText(b.getString("genero"));
+        txtFechaNac.setText(b.getString("fechanac"));
+        txtTelefono.setText(b.getString("telefono"));
 
 
     }

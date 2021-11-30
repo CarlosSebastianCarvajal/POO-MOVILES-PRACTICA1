@@ -38,6 +38,7 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, MainActivity2.class).addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_SINGLE_TOP);
         Bundle b = new Bundle();
         b.putString("nombres", txtNombres.getText().toString());
+        b.putString("genero", "Masculino");
         b.putString("fechanac", txtFNacimiento.getText().toString());
         b.putString("telefono", txtTelefono.getText().toString());
         intent.putExtras(b);
