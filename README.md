@@ -8,6 +8,8 @@ Pantalla 1 - se ingresa y se envía los datos:
 
 ![alt text](https://github.com/CarlosSebastianCarvajal/POO-MOVILES-PRACTICA1/blob/main/capturas/Screenshot_1638292434.png)
 
-Pantalla 1 - se recibe y se muestra los datos:
+
+
+Pantalla 2 - se recibe y se muestra los datos:
 
 ![alt text](https://github.com/CarlosSebastianCarvajal/POO-MOVILES-PRACTICA1/blob/main/capturas/Screenshot_1638292445.png)
