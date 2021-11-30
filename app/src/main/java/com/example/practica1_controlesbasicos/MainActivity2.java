@@ -29,7 +29,7 @@ public class MainActivity2 extends AppCompatActivity {
         txtSaludo.setText("Hola " + b.getString("nombres"));
 
         b = this.getIntent().getExtras();
-        txtSaludo.setText("Hola " + b.getString("nombres") + "Bienvenid@. A Continuacion tus datos...");
+        txtSaludo.setText("Hola " + b.getString("nombres") + " " +"Bienvenid@. A continuación tus datos...");
         txtNombre.setText(b.getString("nombres"));
         txtgenero.setText(b.getString("genero"));
         txtFechaNac.setText(b.getString("fechanac"));
